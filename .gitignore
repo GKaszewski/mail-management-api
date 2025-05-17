@@ -1,0 +1,35 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore MyPy cache
+.mypy_cache/
+
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Database files
+db.sqlite3
+
+# Django specific ignores
+# We usually track migration files, but sometimes temporary ones are generated
+# If you want to ignore all migration files (USE WITH CAUTION, generally track them)
+# api/migrations/
+
+# Common build/distribution folders
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
