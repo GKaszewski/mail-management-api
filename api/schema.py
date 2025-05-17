@@ -1,11 +1,5 @@
-from typing import List, Optional
-
-from ninja import Schema, Form, UploadedFile, File
-
-
-class UserSchema(Schema):
-    username: str
-    is_authenticated: bool
+from typing import List
+from ninja import Schema
 
 
 class NewMailMessageIn(Schema):
